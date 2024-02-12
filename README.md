@@ -21,4 +21,4 @@ I learned how to make cool page transition animations by watching tutorial video
 ## Demo 📸 
 
 ## Page Transition 1 
-<img src='https://github.com/mounirabcire/page-transitions/assets/153240368/310095ab-0ad9-4d88-815a-8d9746a39343' alt='video' />
+[demo](https://github.com/mounirabcire/page-transitions/assets/153240368/310095ab-0ad9-4d88-815a-8d9746a39343)
