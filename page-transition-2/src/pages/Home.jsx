@@ -3,12 +3,6 @@ import PageTransition from "../components/PageTransition";
 
 function Home() {
     const title = "Home";
-    const paragraph =
-        " Lorem, ipsum dolor sit amet consectetur adipisicing" +
-        "elit. Iste distinctio in animi labore, quidem vitae sint" +
-        "at expedita veniam magnam error doloribus dolor, esse" +
-        "voluptate inventore dolorum iusto. Molestiae," +
-        "laboriosam!";
 
     const parent = {
         initial: {
@@ -18,7 +12,7 @@ function Home() {
             y: 0,
             transition: {
                 when: "beforeChildren",
-                staggerChildren: 0.001,
+                staggerChildren: 0.1,
             },
         },
     };
@@ -38,41 +32,22 @@ function Home() {
 
     return (
         <PageTransition>
-            <div className="mt-[70px] space-y-5">
-                <div className=" overflow-hidden">
-                    <motion.h1
-                        variants={parent}
-                        initial="initial"
-                        animate="animate"
-                        className="text-5xl text-center"
-                    >
-                        {title.split("").map((char) => (
-                            <motion.span
-                                className="inline-block"
-                                variants={children}
-                            >
-                                {char}
-                            </motion.span>
-                        ))}
-                    </motion.h1>
-                </div>
-                <div className="overflow-hidden">
-                    <motion.p
-                        variants={parent}
-                        initial="initial"
-                        animate="animate"
-                        className="text-center "
-                    >
-                        {paragraph.split("").map((char) => (
-                            <motion.span
-                                className="inline-block"
-                                variants={children}
-                            >
-                                {char}
-                            </motion.span>
-                        ))}
-                    </motion.p>
-                </div>
+            <div className="mt-20 overflow-hidden">
+                <motion.h1
+                    variants={parent}
+                    initial="initial"
+                    animate="animate"
+                    className="text-8xl text-center"
+                >
+                    {title.split("").map((char) => (
+                        <motion.span
+                            className="inline-block"
+                            variants={children}
+                        >
+                            {char}
+                        </motion.span>
+                    ))}
+                </motion.h1>
             </div>
         </PageTransition>
     );

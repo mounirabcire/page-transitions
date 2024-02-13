@@ -22,22 +22,25 @@ function PageTransition({ children }) {
         initial: {
             scale: 1,
             y: 0,
+            opacity: 1
         },
         animate: {
             scale: 1,
             y: 0,
+            opacity: 1
         },
         exit: {
-            scale: 0.3,
+            scale: 0.9,
             y: -150,
+            opacity: .5,
             transition: {
-                duration: 1.3,
+                duration: 1.2,
                 ease: [0.83, 0, 0.17, 1],
             },
         },
     };
     return (
-        <div className="bg-slate-900">
+        <div className="bg-black">
             <motion.div
                 variants={variants}
                 initial="initial"
@@ -51,7 +54,7 @@ function PageTransition({ children }) {
                 initial="initial"
                 animate="animate"
                 exit="exit"
-                className="bg-slate-100"
+                className="bg-white"
             >
                 <NavBar />
                 {children}
