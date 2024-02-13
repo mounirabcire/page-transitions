@@ -9,7 +9,7 @@ Exploring various page transition animations! 🌟
 - `Framer Motion`
 
 ## Process 💭
-I learned how to make cool page transition animations by watching tutorial videos. Then, figuring out how they work and recreated them based on what I understood.
+learning how to make cool page transition animations by watching tutorial videos. Then, figuring out how they work and recreated them based on what I understood.
 
 
 ## Learnings 📚
