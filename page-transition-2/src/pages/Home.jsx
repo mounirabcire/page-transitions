@@ -39,10 +39,11 @@ function Home() {
                     animate="animate"
                     className="text-8xl text-center"
                 >
-                    {title.split("").map((char) => (
+                    {title.split("").map((char, i) => (
                         <motion.span
                             className="inline-block"
                             variants={children}
+                            key={i}
                         >
                             {char}
                         </motion.span>
