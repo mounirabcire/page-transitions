@@ -25,3 +25,6 @@ learning how to make cool page transition animations by watching tutorial videos
 
 ## Page Transition 2
 [demo](https://github.com/mounirabcire/page-transitions/assets/153240368/c9e80f82-a148-4d0e-bd64-d78dfab7a0fc)
+
+## Page Transition 3
+[demo](https://github.com/mounirabcire/page-transitions/assets/153240368/411d1921-a651-44fa-915b-491fd70c1e58)

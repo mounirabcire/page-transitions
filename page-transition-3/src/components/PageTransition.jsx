@@ -21,7 +21,7 @@ const scale = {
         },
         transitionEnd: {
             scaleY: 0,
-            transformOrigin: "top"
+            transformOrigin: "top",
         },
     }),
     exit: (i) => ({
@@ -33,30 +33,6 @@ const scale = {
         },
     }),
 };
-
-// const scale = {
-//     initial: { top: 0 },
-//     animate: (i) => ({
-//         top: "100%",
-//         transition: {
-//             delay: 0.055 * i,
-//             ease: [0.16, 1, 0.3, 1],
-//             duration: 0.6,
-//         },
-//         transitionEnd: {
-//             top: 0,
-//             height: 0,
-//         },
-//     }),
-//     exit: (i) => ({
-//         height: "100%",
-//         transition: {
-//             delay: 0.06 * i,
-//             ease: [0.16, 1, 0.3, 1],
-//             duration: 0.6,
-//         },
-//     }),
-// };
 
 function PageTransition({ children }) {
     return (
